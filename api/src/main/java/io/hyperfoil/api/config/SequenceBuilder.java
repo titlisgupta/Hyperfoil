@@ -23,7 +23,7 @@ package io.hyperfoil.api.config;
 import io.hyperfoil.api.session.Session;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class SequenceBuilder extends BaseSequenceBuilder<SequenceBuilder> {
    @IgnoreCopy

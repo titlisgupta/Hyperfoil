@@ -28,7 +28,7 @@ import io.hyperfoil.api.session.Action;
 import io.hyperfoil.api.session.Session;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 @IncludeBuilders(
       @IncludeBuilders.Conversion(from = Action.Builder.class, adapter = StepBuilder.ActionBuilderConverter.class)

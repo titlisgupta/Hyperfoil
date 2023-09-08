@@ -34,7 +34,7 @@ import java.util.stream.Collectors;
 import io.hyperfoil.impl.FutureSupplier;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class BenchmarkBuilder {
 

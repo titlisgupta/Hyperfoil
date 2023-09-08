@@ -69,7 +69,7 @@ public class Util {
       if (timeNanos < 1000) {
          return String.format("%" + width + "d%sns", timeNanos, space);
       } else if (timeNanos < 1000_000) {
-         return String.format("%" + width + ".2f%sμs", timeNanos / 1000d, space);
+         return String.format("%" + width + ".2f%sms", timeNanos / 1000d, space);
       } else if (timeNanos < 1000_000_000) {
          return String.format("%" + width + ".2f%sms", timeNanos / 1000_000d, space);
       } else {

@@ -81,7 +81,7 @@ public class Compare extends ServerCommand {
       if (meanResponseTime < 1000 && meanResponseTime > -1000) {
          return String.format("%+6d ns", meanResponseTime);
       } else if (meanResponseTime < 1000_000 && meanResponseTime > -1000_000) {
-         return String.format("%+6.2f μs", meanResponseTime / 1000d);
+         return String.format("%+6.2f ms", meanResponseTime / 1000d);
       } else if (meanResponseTime < 1000_000_000 && meanResponseTime > -1000_000_000) {
          return String.format("%+6.2f ms", meanResponseTime / 1000_000d);
       } else {

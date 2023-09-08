@@ -26,7 +26,7 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class ScenarioBuilder {
 

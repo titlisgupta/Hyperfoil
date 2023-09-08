@@ -46,7 +46,7 @@ import io.vertx.ext.unit.TestContext;
 import io.vertx.ext.unit.junit.VertxUnitRunner;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 @Category(io.hyperfoil.test.Benchmark.class)
 @RunWith(VertxUnitRunner.class)

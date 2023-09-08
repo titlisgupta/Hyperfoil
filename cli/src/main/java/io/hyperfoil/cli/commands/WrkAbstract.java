@@ -118,7 +118,7 @@ public abstract class WrkAbstract {
                throw new IllegalStateException(ex);
             }
          }
-         //todo: should provide help info here, will be added in newer version of æsh
+         //todo: should provide help info here, will be added in newer version of sh
       }
       return result == null ? CommandResult.FAILURE.getResultValue() : result.getResultValue();
    }

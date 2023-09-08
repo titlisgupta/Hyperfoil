@@ -237,7 +237,7 @@ public abstract class ServerCommand implements Command<HyperfoilCommandInvocatio
             clearLines(invocation, 1);
             invocation.println("");
             for (int i = invocation.getShell().size().getWidth(); i > 0; --i) {
-               invocation.print("—");
+               invocation.print("-");
             }
             invocation.println("");
             if (invocation.context().isSwitchable()) {

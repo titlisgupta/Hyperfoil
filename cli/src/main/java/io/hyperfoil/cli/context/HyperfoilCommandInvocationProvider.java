@@ -24,7 +24,7 @@ import org.aesh.command.invocation.CommandInvocation;
 import org.aesh.command.invocation.CommandInvocationProvider;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class HyperfoilCommandInvocationProvider implements CommandInvocationProvider<HyperfoilCommandInvocation> {
 

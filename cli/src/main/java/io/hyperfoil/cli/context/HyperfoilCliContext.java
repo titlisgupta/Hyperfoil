@@ -42,7 +42,7 @@ import io.hyperfoil.controller.model.Run;
 import io.vertx.core.Vertx;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class HyperfoilCliContext {
    private final Vertx vertx;

@@ -26,7 +26,7 @@ public class Runs extends ServerCommand {
 
    private static String runIcon(io.hyperfoil.controller.model.Run run) {
       if (run.cancelled) {
-         return ANSI.RED_TEXT + "×" + ANSI.RESET;
+         return ANSI.RED_TEXT + "+" + ANSI.RESET;
       } else if (run.errors != null && !run.errors.isEmpty()) {
          return ANSI.RED_TEXT + (run.terminated == null ? ANSI.BLINK : "") + "!" + ANSI.RESET;
       } else if (run.started == null) {

@@ -25,7 +25,7 @@ import java.io.Serializable;
 import io.hyperfoil.http.api.HttpVersion;
 
 /**
- * @author <a href="mailto:stalep@gmail.com">Ståle Pedersen</a>
+ * @author <a href="mailto:stalep@gmail.com">Stale Pedersen</a>
  */
 public class Http implements Serializable {
 
